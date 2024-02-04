@@ -1,0 +1,74 @@
+/*     #f94144 (Reddish shade)
+    #f3722c (Orange shade)
+    #f8961e (Yellowish shade)
+    #f9c74f (Mustard shade)
+    #90be6d (Greenish shade)
+    #43aa8b (Teal shade)
+    #577590 (Blueish shade) */
+
+
+    /*     
+    #ff7b82 (Lighter Red on hover)
+    #ff9b7d (Lighter Orange on hover)
+    #ffc87e (Lighter Yellow on hover)
+    #ffe8a5 (Lighter Mustard on hover)
+    #b8e994 (Lighter Green on hover)
+    #63cea2 (Lighter Teal on hover)
+    #8497a1 (Lighter Blue on hover) */
+.container {
+    background-color: #333333;
+}
+.container .date-list button:nth-child(1) {
+    background-color: #f94144;
+    box-shadow: 2px 2px 5px rgb(255, 123, 130);
+    
+}
+.container .date-list button:nth-child(1):hover {
+    background-color: #ff7b82;
+}
+
+.container .date-list button:nth-child(2) {
+    background-color: #f3722c;
+    box-shadow: 2px 2px 5px #ff9b7d;
+}
+.container .date-list button:nth-child(2):hover {
+    background-color: #ff9b7d;
+}
+
+.container .date-list button:nth-child(3) {
+    background-color: #f8961e;
+    box-shadow: 2px 2px 5px #ffc87e;
+}
+.container .date-list button:nth-child(3):hover {
+    background-color: #ffc87e ;
+}
+.container .date-list button:nth-child(4) {
+    background-color: #f9c74f;
+    box-shadow: 2px 2px 5px #ffe8a5;
+}
+.container .date-list button:nth-child(4):hover {
+    background-color: #ffe8a5;
+}
+
+.container .date-list button:nth-child(5) {
+    background-color: #b8e994;
+    box-shadow: 2px 2px 5px #90be6d;
+}
+.container .date-list button:nth-child(5):hover {
+    background-color: #90be6d;
+}
+.container .date-list button:nth-child(6) {
+    background-color: #43aa8b;
+    box-shadow: 2px 2px 5px #63cea2;
+}
+.container .date-list button:nth-child(6):hover {
+    background-color:  #63cea2;
+}
+
+.container .date-list button:nth-child(7) {
+    background-color:  #577590;
+    box-shadow: 2px 2px 5px #8497a1;
+}
+.container .date-list button:nth-child(7):hover {
+    background-color:  #8497a1;
+}
